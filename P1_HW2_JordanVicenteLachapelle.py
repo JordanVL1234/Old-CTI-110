@@ -1,0 +1,15 @@
+###   JORDAN VICENTE-LACHAPELLE /-/ 9/26/23 /-/   ###
+print("This program calculates and displays travel expenses")
+Budget = int(input("Enter Budget : "))
+Destination = input("Enter your travel destination : ")
+Gas = int(input("How much do you think you will spend on gas? : "))
+Accommodation = int(input("Approximately, How much will you need for accommodation/hotel? : "))
+Food = int(input("Last, How much do you need for food? : "))
+print("\n------------ Travel Expenses ------------")
+print(f"Location : {Destination}")
+print(f"Initial Budget : {Budget}")
+print(f"\nFuel : {Gas}")
+print(f"Accommodation : {Accommodation}")
+print(f"Food : {Food}")
+print(f"\nRemaining Balance : {Budget-(Gas+Accommodation+Food)}")
+
