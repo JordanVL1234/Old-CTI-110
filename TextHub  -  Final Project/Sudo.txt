@@ -1,0 +1,17 @@
+###   SUDO CODE FOR TEXT HUB   ###
+# Database Design #
+Have a user id and name sheet - 
+    Id | Name
+    1  | JVL
+    2  | Erm
+Have a File system - 
+1
+    User
+        - JVL_UserInfo.txt
+        - Pfp1.jpeg
+    2Logs
+        Jan2023
+            - Jan.txt
+            - img1.jpeg
+            - vid2.mp4
+            - img3.jpeg
